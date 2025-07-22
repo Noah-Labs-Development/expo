@@ -240,6 +240,10 @@ export type RecordingOptionsAndroid = {
      * `65536`
      */
     maxFileSize?: number;
+    /**
+     * The desired audio Source. See the [`AndroidAudioSource`](#androidaudiosource) enum for all valid values.
+     */
+    audioSource?: RecordingSource;
 };
 export type AudioMode = {
     /**
@@ -280,4 +284,12 @@ export type AudioMode = {
 };
 export type InterruptionMode = 'mixWithOthers' | 'doNotMix' | 'duckOthers';
 export type InterruptionModeAndroid = 'doNotMix' | 'duckOthers';
+/**
+ * Recording source for android.
+ *
+ * An audio source defines both a default physical source of audio signal, and a recording configuration
+ * @see https://developer.android.com/reference/android/media/MediaRecorder.AudioSource
+ * @platform android
+ */
+export type RecordingSource = 'camcorder' | 'default' | 'mic' | 'remote_submix' | 'unprocessed' | 'voice_call' | 'voice_communication' | 'voice_downlink' | 'voice_performance' | 'voice_recognition' | 'voice_uplink';
 //# sourceMappingURL=Audio.types.d.ts.map
