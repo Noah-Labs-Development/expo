@@ -6,6 +6,8 @@
 
 ### 🎉 New features
 
+- [Android] Expose MediaRecorder.AudioSource on RecordingOptionsAndroid
+
 ### 🐛 Bug fixes
 
 - [iOS] Fix connected bluetooth devices not playing back recordings. ([#37580](https://github.com/expo/expo/pull/37580) by [@alanjhughes](https://github.com/alanjhughes))
