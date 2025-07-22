@@ -279,6 +279,12 @@ export type RecordingOptionsAndroid = {
    * `65536`
    */
   maxFileSize?: number;
+  /**
+   * The android audio source.
+   * @default MediaRecorder.AudioSource.MIC
+   * @see https://developer.android.com/reference/android/media/MediaRecorder.AudioSource
+   */
+  audioSource?: number;
 };
 
 export type AudioMode = {
