@@ -6,7 +6,7 @@
 
 ### 🎉 New features
 
-- [Android] Expose MediaRecorder.AudioSource on RecordingOptionsAndroid
+- [Android] Expose MediaRecorder.AudioSource on RecordingOptionsAndroid ([#38271](https://github.com/expo/expo/pull/38271) by [@vipierozan99](https://github.com/vipierozan99))
 
 ### 🐛 Bug fixes
 
