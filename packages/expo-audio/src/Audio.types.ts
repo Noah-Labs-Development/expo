@@ -449,7 +449,7 @@ export type InterruptionModeAndroid = 'doNotMix' | 'duckOthers';
 /**
  * Recording source for android.
  *
- * An audio source defines both a default physical source of audio signal, and a recording configuration
+ * An audio source defines both a default physical source of audio signal, and a recording configuration.
  * @see https://developer.android.com/reference/android/media/MediaRecorder.AudioSource
  * @platform android
  */
