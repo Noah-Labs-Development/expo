@@ -493,6 +493,7 @@ class AudioModule : Module() {
         try {
           return@Function recorder.getAudioRecorderStatus()
         } catch (e: Exception) {
+          Log.e(TAG, Log.getStackTraceString(e))
           throw e
         }
       }
