@@ -10,6 +10,8 @@
 
 ### 🐛 Bug fixes
 
+- [android]: Handle exceptions when retrieving maxAmplitude from MediaRecorder ([#38690](https://github.com/expo/expo/pull/38690) by [@hirbod](https://github.com/hirbod))
+
 ### 💡 Others
 
 ## 0.4.8 — 2025-07-03
